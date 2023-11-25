@@ -18,3 +18,12 @@ mystr = "Leonardo and Ostap are learning python"
 # print(mystr[32:39])
 # print(mystr[-1:-8])
 # print(mystr[-6:])
+#original_string = "Python is a powerful programming language."
+#print(original_string[3,6,9])
+mystr = "Python is a powerful programming language."
+#print(mystr[-9:-1:1])
+# print(mystr[33:41:1])
+# print(mystr[-1:-41:-1])
+# reversed_string = mystr[-1:-41:-1]
+# print(reversed_string[5:13:1])
+print(mystr[3:10:2])
