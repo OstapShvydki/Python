@@ -26,6 +26,14 @@
 # mylist.sort(reverse=True)
 # print(mylist)
 #sort function by default sorts in the order. But by putting it reversed = True, it sorts in the descending order
-mylist=["Hello", "Ostap", "age"]
-mylist.sort()
-print(mylist)
+# mylist=["Hello", "Ostap", "age"]
+# mylist.sort()
+# print(mylist)
+# Write a Python code to create a list of numbers from 1 to 10.
+# Add the numbers 11 and 12 to the list.
+# Remove the number 3 from the list
+mynewlist=[1,2,3,4,5,6,7,8,9,10,]
+mynewlist.append(11)
+mynewlist.append(12)
+mynewlist.remove(3)
+print(mynewlist)
