@@ -307,10 +307,21 @@ else:
 # if score >=0 and score <=59:
 #     print ("F")
 
-choice = input ("choose your pet from Dog, Cat, Rabbit ")
-if choice == "Dog":
-    print ("You'll have a playful friend to take on walks and play fetch with.")
-if choice == "Cat":
-    print ("You'll have a cozy companion who loves to nap and purr by your side.")
-if choice == "Rabbit":
-    print ("You'll care for a quiet, gentle friend who loves to hop around safely indoors.")
+#choice = input ("choose your pet from Dog, Cat, Rabbit ")
+#if choice == "Dog":
+#    print ("You'll have a playful friend to take on walks and play fetch with.")
+#if choice == "Cat":
+#    print ("You'll have a cozy companion who loves to nap and purr by your side.")
+#if choice == "Rabbit":
+#    print ("You'll care for a quiet, gentle friend who loves to hop around safely indoors.")
+num = 24
+if num%2 == 0 and num>0:
+    print("even positive")
+elif num%2 == 1 and num>0:
+    print("odd positive")
+elif num%2 == 1 and num<0:
+    print("odd negative")
+elif num%2 == 2 and num<0:
+    print("even negative")
+else num == 0:
+    print("Zero")
